@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tablas en html</title> 
+	 <link rel="stylesheet" href="file:///D|/INTERFAZ ESTEFANIA/css/mi estilo f.css">
+	 <style type="text/css">
+            table1{
+                width: 80%;
+                text-align: center;
+                margin:0 auto;
+                color: paleturquoise;
+                border-style: solid;
+                border-color: lightpink;
+                border-width: 5px;
+            }
+            table1 th{
+                background-color: lightblue;
+            }
+            table1 td{
+                background-color: pink;
+                color: lightblue;
+                text-align: left;
+                border-style: solid;
+                border-bottom-color: paleturquoise;
+                border-width: 3px;
+                border-radius: 5px;
+                margin: 25px;
+            }
+           /* #tabla1{
+                color:lightcyan;
+            }
+            #tabla1 td{
+                color: beige;
+                height: 50px;
+                padding: 20px;
+                border-spacing: 20px;
+            }*/
+            .celda_centrada{
+                text-align: center;
+                padding: 0px;
+                background-color: lightcyan;
+            }
+            .tabla2{
+                width: : 900px;
+                border-collapse: collapse;
+                border-style: inset;
+            }
+            .tabla2 th{
+                border-style: dotted;
+            }
+            .tabla2 td{
+                border-style: dotted;
+            }
+            #tabla_zebra{
+                width: 100%;
+            }
+            #tabla_zebra tr:nth-child(even){
+                background-color: pink;
+            }
+            #tabla_zebra tr:nth-child(odd){
+                background-color: lightcyan;
+            }
+            #tabla_zebra tbody tr:nth-child(odd){
+                background-color: lightgray;
+            }
+            .tabla_hover{
+                width: 100%; 
+                border-style:dashed;
+                border-collapse:collapse;
+                border-bottom-color: pink;
+            }
+            .tabla_hover th td{
+                background-color: lightblue;
+                color: pink;
+                border-style:ridge;
+                padding: 30px;
+            }
+            .tabla_hover td{
+                background-color: pink;
+                padding: 5px;
+                border-style:ridge;
+            }
+            .tabla_hover tr:hover{
+                background-color: lightblue;
+                color:lightcoral;
+                border: solid;
+            }  
+		 section{
+			 background-color: lightblue;
+		 }
+		 p{
+			 color:darkslateblue;
+		 }
+        </style>
+</head>
+
+<body>
+	<header>
+	<h1>Tablas en html</h1> 
+	</header>
+	<nav>
+	<ul>
+		<li><a  href="../INTERFAZ ESTEFANIA/index.html">inicio</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/listas.html">listas</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/enlaces.html">enlaces</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/tablas.html">tablas</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/imagenes.html">imagenes</a></li> 
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/audio.html">audio</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/video.html">video</a></li>
+		<li><a href="../INTERFAZ ESTEFANIA/html doc/formularios.html">formulario</a></li>
+		</ul>
+	</nav>
+	<main>
+	<section style="overflow: auto">
+		<h2>Tablas</h2>
+		 <p>Vivamus at purus ante. In pellentesque hendrerit lorem sed sagittis. Praesent lectus purus, feugiat a est id, placerat malesuada augue. Maecenas dapibus velit et porta mattis. Vivamus quis sollicitudin eros. Maecenas dictum diam eu turpis varius, pharetra posuere est lacinia. Phasellus ornare erat sit amet ornare accumsan. Vestibulum sem tellus, maximus vel volutpat eget, egestas a lorem. Vestibulum id elementum eros. Nullam et ultrices metus. Mauris scelerisque risus eu neque facilisis scelerisque. Aliquam leo velit, bibendum eu aliquet in, feugiat eu leo. Morbi sit amet dolor vel quam suscipit maximus id et libero</p>
+               <table border id="tabla1">
+               <thead >
+                       <tr>
+                           <th>Matricula</th>
+                           <th>Nombre</th>
+                           <th>Apellido Paterno</th>
+                           <th>Apellido Materno</th>
+                           <th>Colegio</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                        <tr>
+                            <td>201930803</td>
+                            <td>Estefania</td>
+                            <td>Mendoza</td>
+                            <td>Galán</td>
+                            <td>Diseño Gráfico</td>
+                       </tr>
+                       <tr>
+                            <td>201869045</td>
+                            <td>Brenda</td>
+                            <td>Mazzocco</td>
+                            <td>Zago</td>
+                            <td>Diseño Gráfico</td>
+                       </tr>
+                       <tr>
+                            <td>202096170</td>
+                            <td>Fabian</td>
+                            <td>Deyta</td>
+                            <td>Gonzales</td>
+                            <td>Diseño Gráfico</td>
+                       </tr>
+                       <tr>
+                            <td>202148592</td>
+                            <td>David</td>
+                            <td>Limon</td>
+                            <td>Perez</td>
+                            <td>Diseño Gráfico</td>
+                       </tr>
+                   </tbody>
+                   <tfoot>
+                   </tfoot>
+               </table>
+            </section>
+		<section style="overflow: auto">
+                <h2>Tablas</h2>
+                <p>Vivamus at purus ante. In pellentesque hendrerit lorem sed sagittis. Praesent lectus purus, feugiat a est id, placerat malesuada augue. Maecenas dapibus velit et porta mattis. Vivamus quis sollicitudin eros. Maecenas dictum diam eu turpis varius, pharetra posuere est lacinia. Phasellus ornare erat sit amet ornare accumsan. Vestibulum sem tellus, maximus vel volutpat eget, egestas a lorem. Vestibulum id elementum eros. Nullam et ultrices metus. Mauris scelerisque risus eu neque facilisis scelerisque. Aliquam leo velit, bibendum eu aliquet in, feugiat eu leo. Morbi sit amet dolor vel quam suscipit maximus id et libero</p>
+                    <table id="tabla2" class="tabla2">
+                        <thead>
+                            <tr>
+                                <th style="width: 150px">Nombre</th>
+                                <th style="width: 30px">Edad</th>
+                                <th style="width: 200px"; colspan="2">Teléfono</th>
+                                <th style="width: 30px;">Cooperación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Leticia Mnedoza Reyes</td>
+                                <td style="text-align:center; padding:0px">15</td>
+                                <td>228 177 2236</td>
+                                <td>228 177 2236</td>
+                                <td class="celda_centrada">$100</td>
+                            </tr>
+                            <tr>
+                                <td>Monica Mendoza Medina</td>
+                                <td style="text-align:center; padding:0px">14</td>
+                                <td>228 146 4578</td>
+                                <td>228 146 4578</td>
+                                <td class="celda_centrada">$50</td>
+                            </tr>
+                            <tr>
+                                <td>Mariana  Valerio Mendoza</td>
+                                <td style="text-align:center; padding:0px">13</td>
+                                <td>222 987 3567</td>
+                                <td>222 987 3567</td>
+                                <td class="celda_centrada">$70</td>
+                            </tr>
+                            <tr>
+                                <td>Matilda Valerio Mendoza</td>
+                                <td style="text-align:center; padding:0px">15</td>
+                                <td>222 485 3595</td>
+                                <td>222 485 3595</td>
+                                <td class="celda_centrada">$120</td>
+                            </tr>
+                            <tr>
+                                <td>Fernanda Galán Dorantes</td>
+                                <td style="text-align:center; padding:0px">15</td>
+                                <td>222 468 4826</td>
+                                <td>222 468 4826</td>
+                                <td class="celda_centrada">$90</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Total</td>
+                                <td></td>
+                                <td class="celda_centrada" style="background-color: #F7F1E1; COLOR: #855E6E">$430</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+            </section>
+		<section>
+                <h2>Tabla</h2>
+                <p>Vivamus at purus ante. In pellentesque hendrerit lorem sed sagittis. Praesent lectus purus, feugiat a est id, placerat malesuada augue. Maecenas dapibus velit et porta mattis. Vivamus quis sollicitudin eros. Maecenas dictum diam eu turpis varius, pharetra posuere est lacinia. Phasellus ornare erat sit amet ornare accumsan. Vestibulum sem tellus, maximus vel volutpat eget, egestas a lorem. Vestibulum id elementum eros. Nullam et ultrices metus. Mauris scelerisque risus eu neque facilisis scelerisque. Aliquam leo velit, bibendum eu aliquet in, feugiat eu leo. Morbi sit amet dolor vel quam suscipit maximus id et libero</p>
+                    <table id="tabla_zebra">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Deporte</th>
+                                <th>Teléfono</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Victor</td>
+                                <td>20</td>
+                                <td>Boxeo</td>
+                                <td>2226598745</td>
+                                <td>Victor.mar@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Erikal</td>
+                                <td>24</td>
+                                <td>Footboll</td>
+                                <td>2229486578</td>
+                                <td>Eri12@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Andres</td>
+                                <td>21</td>
+                                <td>Baloncesto</td>
+                                <td>2220138054</td>
+                                <td>andy@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Angelina</td>Angelina
+                                <td>21</td>
+                                <td>Fotbol</td>
+                                <td>2220350970</td>
+                                <td>Ang@Angelina.com</td>
+                            </tr>
+                            <tr>
+                                <td>Tatiana</td>
+                                <td>25</td>
+                                <td>Volibol</td>
+                                <td>2223050064</td>
+                                <td>fati65li@gmail.com</td>
+                            </tr>
+                             <tr>
+                                <td>Alonso</td>
+                                <td>20</td>
+                                <td>Volibol</td>
+                                <td>2220320460085</td>
+                                <td>alo30pe@gmail.com</td>
+                            </tr>
+                             <tr>
+                                <td>Fatima</td>
+                                <td>21</td>
+                                <td>Futbl</td>
+                                <td>2223335987164</td>
+                                <td>fati.lun@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+		<section>
+                <h2>Tablas</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu pretium ligula, at faucibus quam. Mauris molestie varius dui, pellentesque sollicitudin augue lacinia nec. Ut venenatis lobortis orci. Vestibulum ac mauris ac diam vulputate consequat at bibendum nibh. Maecenas a laoreet leo, at vestibulum mi. Proin ipsum leo, vestibulum at velit aliquet, finibus aliquam dui. In sodales tellus id urna scelerisque efficitur. Integer tortor nibh, lobortis sit amet dui a, blandit ornare felis. Fusce nec risus non dui tincidunt lacinia. Vivamus efficitur accumsan turpis sit amet feugiat. Ut pellentesque accumsan leo pulvinar facilisis. Curabitur non sem blandit, interdum enim et, molestie nulla. Donec eget luctus erat. Donec mattis egestas ex ac elementum. Fusce pellentesque quam est, at dictum risus aliquet eu. Nulla facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu pretium ligula, at faucibus quam. Mauris molestie varius dui, pellentesque sollicitudin augue lacinia nec. Ut venenatis lobortis orci. Vestibulum ac mauris ac diam vulputate consequat at bibendum nibh. Maecenas a laoreet leo, at vestibulum mi. Proin ipsum leo, vestibulum at velit aliquet, finibus aliquam dui.</p>
+                    <table id="" class="tabla_hover">
+                    <thead>
+                        <tr>
+                            <td>Nombre</td>
+                            <td>Edad</td>
+                            <td>Deporte</td>
+                            <td>Telefono</td>
+                            <td>Email</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>Estefania</th>
+                            <th>24</th>
+                            <th>Box</th>
+                            <th>2281772236</th>
+                            <th>gato2340@gmail.com</th>
+                            </tr>
+                            <tr>
+                            <th>Fernanda</th>
+                            <th>35</th>
+                            <th>Yoga</th>
+                            <th>2281772569</th>
+                            <th>luna9078@gmail.com</th>
+                            </tr>
+                            <tr>
+                            <th>Guillermo</th>
+                            <th>36</th>
+                            <th>Box</th>
+                            <th>2281778716</th>
+                            <th>guillermoman@gmail.com</th>
+                            </tr>
+                            <tr>
+                            <th>Alejandra</th>
+                            <th>24</th>
+                            <th>Atletismo</th>
+                            <th>2281779026</th>
+                            <th>ale2050@gmail.com</th>
+                            </tr>
+                            <tr>
+                            <th>Sayuri</th>
+                            <th>21</th>
+                            <th>Yoga</th>
+                            <th>2289725236</th>
+                            <th>saylu@gmail.com</th>
+                            </tr>
+                            <tr>
+                            <th>Fabian</th>
+                            <th>23</th>
+                            <th>Pesas</th>
+                            <th>2283772236</th>
+                            <th>fabdeyta@gmail.com</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+			</main>
+	<footer>
+	<h5>Elaborado por Estefani Mendoza Galán</h5>
+	</footer>
+</body>
+</html>

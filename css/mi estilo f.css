@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header,nav,main,footer{
+    /*width: 960px;*/
+    width: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right:auto;
+}
+header{
+    height: 100px;
+    background-color: #CE7095;
+    color: #F7F1E1;
+}
+nav{
+    height: 50px;
+    background-color: #ffb2c1; 
+}
+main{
+    height: auto;
+	width: auto;
+    background-color: #ffdbd7;
+    padding: 80px;
+	
+}
+section{
+    /*width: 800px;*/
+    width: 650p;
+    height: auto;
+    background-color: #ce7095;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 30px;
+}
+footer{
+    height: 50px;
+    background-color: #855e6e;
+    color: #ffdbd7;
+}
+h1, h5{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+ul li{
+			width: 80px;
+			background-color: plum;
+			padding: 10px;
+			color: purple;
+			text-align: center;
+			border-width: 3px;
+			border-color: whitesmoke;
+			border-style: solid;
+			display: inline-block;
+			border-radius: 20px;
+		}
+li{
+                background-color: orange;
+                text-align: center;
+                width: 100px;
+                margin-bottom: 10px;
+                padding: 20px;
+                border-width: 3px;
+                border-bottom-color: olivedrab;
+                border-bottom-style: solid;
+                display: inline-block;
+                border-radius: 20px;
+                
+            }
+h1{
+    font-family: "Protest Strike", sans-serif
+}
+h2{
+    font-family: "Protest Strike", sans-serif;
+    font-size: 30px;
+    color: azure;
+}
+nav ul li a:visited, nav ul li a:link{
+    color: #f7f1e1;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #f7f1e1;
+}
+nav ul li a:link{
+	color: aqua;
+}
+
+img{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2, p{
+    color: #f7f1e1;
+}
+h2{
+	margin-bottom:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+#f111{
+	width: 300px;
+	float: right;
+}
+#f11{
+	margin: 300px;
+	float: right;
+}
+#f1{
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+main nav{
+	width: 800px;
+	padding: 30px;
+}
+#icono{
+	width: 32px;
+	height: auto;
+}
+p{
+    margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+    font-family: "fredoka";
+    font-size: 18px;
+}
+#fondo_section{
+	background-image: url("../imagenes/"../../../Sitio_MendozaGaánEstefania/).jfif;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#fondo_section p, #fondo_section{
+	color: cadetblue;
+}
+#filtros imagen{
+    text-align: center;
+}
+#filtros imagen img{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+#gif imagen img{
+	width: 300px;
+    height: auto;
+}
+#img1{
+    filter: brightness(150%);}
+#img2{
+    filter: contrast(50%);}
+#img3{
+    filter: grayscale(100%);
+}
+#img4{
+    filter: invert(100%);
+}
+#img5{
+    filter: opacity(0.5);
+}
+#img6{
+    filter: sepia(100%);
+}
+#img7{
+    filter: saturate(150%);
+}
+#img8{
+    filter: blur(5px);
+}
+#img9{
+    filter: drop-shadow(5px 5px 10px white);
+}
+#img10{
+    filter: contrast(150%) blur(2px);
+}
+iframe, audio{
+    display: block;
+    margin: 0 auto;
+}
