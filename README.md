@@ -1,1 +1,0 @@
-# fanymendoza.github.io
